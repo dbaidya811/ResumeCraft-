@@ -1,123 +1,123 @@
-# ResumeCraft - README
+# Resumecraft
 
-## Overview
-ResumeCraft is a web application that helps users create professional resumes quickly and easily. This application provides customizable templates, pre-written content suggestions, and a user-friendly interface to build impressive CVs for job applications.
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![NPM](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-## Features
-- **Multiple Templates**: Choose from various professionally designed resume templates
-- **Easy Editing**: Fill in your information section by section
-- **Content Suggestions**: Get pre-written bullet points for common job roles
-- **Download Options**: Export your resume as PDF or DOCX
-- **Responsive Design**: Works on desktop, tablet and mobile devices
-- **Account System**: Save and manage multiple resumes (if implemented)
 
-## Live Demo
-[View Live Demo](https://your-deployment-link.com) (replace with your actual deployment link)
+## Table of Contents
+- [Overview](#-overview)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Project Structure](#-project-structure)
+- [License](#-license)
 
-## Technologies Used
-### Frontend
-- React.js (or specify if using other framework)
-- HTML5, CSS3, JavaScript (ES6+)
-- [Library Name] for PDF generation (like react-pdf or html2pdf.js)
-- [Library Name] for DOCX generation (like docx or html-docx-js)
 
-### Backend (if applicable)
-- Node.js with Express.js
-- MongoDB/Mongoose (or other database if used)
-- JWT for authentication (if implemented)
+---
 
-### Deployment
-- Frontend: Netlify/Vercel
-- Backend: Render/Heroku (if applicable)
+## ✨ Overview
 
-## Setup Instructions
+Resumecraft is a comprehensive full-stack web application developed with TypeScript. It features responsive user interface, detailed documentation. Ideal for businesses and users seeking a complete digital solution with both frontend and backend components.
 
-### Prerequisites
-- Node.js (version 16.x or higher)
-- npm (version 8.x or higher)
-- MongoDB Atlas account (if using database)
+---
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/dbaidya811/ResumeCraft-.git
-   cd ResumeCraft-
-   ```
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+## 🔗 Connect with me
 
-3. Set up environment variables:
-   Create a `.env` file in the root directory with the following (if applicable):
-   ```
-   REACT_APP_API_URL=http://localhost:5000
-   MONGO_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret_key
-   ```
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/dbaidya811) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dbaidya811)
 
-4. Start the development server:
-   ```bash
-   npm start
-   ```
 
-5. Open your browser and navigate to `http://localhost:3000`
+## 🚀 Features
 
-## Available Scripts
-In the project directory, you can run:
+- **Modern UI/UX:** Responsive design with intuitive user interface and smooth user experience
+- **Full-stack Integration:** Seamless communication between frontend and backend components
+- **Real-time Updates:** Dynamic content updates and real-time data synchronization
+- **Cross-platform Compatibility:** Works seamlessly across different devices, browsers, and screen sizes
+- **Advanced State Management:** Efficient state handling and data flow management
+- **Detailed Documentation:** Complete guides, API references, and usage examples
+- **Component Architecture:** Modular UI components for reusability
+- **Auto Documentation:** Automatic API documentation and guides
 
-- `npm start`: Runs the app in development mode
-- `npm test`: Launches the test runner
-- `npm run build`: Builds the app for production
-- `npm run eject`: Ejects from Create React App (if using CRA)
+---
 
-## Deployment
-To deploy this project:
+## 🛠️ Tech Stack
 
-1. Build the production version:
-   ```bash
-   npm run build
-   ```
+- **Primary Language:** TypeScript
+- **Frontend:** HTML5, JavaScript
+- **Tools & Libraries:** npm, ESLint, Git
 
-2. Deploy the `build` folder to your preferred hosting service:
-   - [Netlify](https://www.netlify.com/)
-   - [Vercel](https://vercel.com/)
-   - [Firebase Hosting](https://firebase.google.com/docs/hosting)
+## 📊 Languages Used
 
-For backend deployment (if applicable), follow the hosting provider's instructions.
+![React](https://img.shields.io/badge/React-75.9%25-blue?style=for-the-badge) ![TypeScript](https://img.shields.io/badge/TypeScript-8.4%25-blue?style=for-the-badge) ![JSON](https://img.shields.io/badge/JSON-7.2%25-blue?style=for-the-badge) ![JavaScript](https://img.shields.io/badge/JavaScript-2.4%25-blue?style=for-the-badge) ![CSS](https://img.shields.io/badge/CSS-2.4%25-blue?style=for-the-badge) ![HTML](https://img.shields.io/badge/HTML-1.2%25-blue?style=for-the-badge) ![Markdown](https://img.shields.io/badge/Markdown-1.2%25-blue?style=for-the-badge) ![Text](https://img.shields.io/badge/Text-1.2%25-blue?style=for-the-badge) 
 
-## Project Structure
-```
-ResumeCraft-/
-├── public/                 # Static files
-├── src/
-│   ├── assets/             # Images, icons, etc.
-│   ├── components/         # Reusable components
-│   ├── pages/              # Application pages
-│   ├── templates/          # Resume templates
-│   ├── utils/              # Utility functions
-│   ├── App.js              # Main application component
-│   └── index.js            # Entry point
-├── .env                    # Environment variables
-├── package.json            # Project dependencies
-└── README.md               # This file
+
+## ⚙️ Installation
+
+```bash
+# Clone the repository
+# git clone https://github.com/dbaidya811/ResumeCraft.git
+# Change directory
+# cd ResumeCraft
+# Backend setup (if applicable)
+npm install
 ```
 
-## Contributing
-Contributions are welcome! Please follow these steps:
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+---
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 🏃 Usage
 
-## Contact
-Deep Baidya - dbaidya811@gmail.com  
-Project Link: [https://github.com/dbaidya811/ResumeCraft-](https://github.com/dbaidya811/ResumeCraft-)
+Use the following command to run the project:
 
-## Screenshots
-(Add screenshots of your application here if available)
+```bash
+# Run the project
+# No standard run command found. Please add manually.
+```
+
+---
+
+## 📂 Project Structure
+
+A brief overview of the key files and directories:
+```
+ResumeCraft/
+├── bun.lockb
+├── components.json
+├── eslint.config.js
+├── index.html
+├── LICENSE
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.ts
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
+├── public\placeholder.svg
+└── ...
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the terms of the `LICENSE` file.
+
+**License Preview:**
+```
+MIT License
+Copyright (c) 2025 Deep Baidya
+Permission is hereby granted, free of charge, to any person obtaining a copy
+```
+
+
+## 🙏 Support
+
+If you like this project, please consider supporting me.
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-%23FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/dbaidya811e)
+
+---
+
+*This README was automatically generated. Feel free to edit and improve!*
